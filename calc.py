@@ -20,6 +20,6 @@ while True:
          ans=int(eval(calc))
       except Exception as error:
          if 'ans' in str(error):
-            print(Color.RED + Color.BOLD + "You can not use the previous answer as there not currently not one!\n" + Color.END)
+            print(Color.RED + Color.BOLD + "You can not use the previous answer as currently there is not one!\n" + Color.END)
          else:
             print(Color.RED + Color.BOLD + "looks like something went wrong: " + Color.END + str(error) + Color.RED + Color.BOLD + "!\n" + Color.END)  
